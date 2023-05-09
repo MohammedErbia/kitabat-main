@@ -1,0 +1,425 @@
+import 'package:kitabat/models/_models.dart';
+
+List<Sentence> level11 = [
+  Sentence(words: [
+    TripleInterpretationWord(
+      word: "قرأ",
+      location: Interpretation.FI3L_MADI,
+      state: Interpretation.MABNI,
+      movement: Interpretation.ELA_FAT7,
+    ),
+    TripleInterpretationWord(
+      word: "المتفوق",
+      location: Interpretation.FA3IL,
+      state: Interpretation.MARFO3,
+      movement: Interpretation.BDAMA,
+    ),
+    TripleInterpretationWord(
+      word: "الكلمة",
+      location: Interpretation.MAF3OL_BIH,
+      state: Interpretation.MANSOB,
+      movement: Interpretation.BLFAT7A,
+    ),
+    TripleInterpretationWord(
+      word: "واقفًا",
+      location: Interpretation.HAL,
+      state: Interpretation.MANSOB,
+      movement: Interpretation.BLFAT7A,
+    ),
+  ]),
+  Sentence(words: [
+    TripleInterpretationWord(
+      word: "نظر",
+      location: Interpretation.FI3L_MADI,
+      state: Interpretation.MABNI,
+      movement: Interpretation.ELA_FAT7,
+    ),
+    TripleInterpretationWord(
+      word: "سالم",
+      location: Interpretation.FA3IL,
+      state: Interpretation.MARFO3,
+      movement: Interpretation.BDAMA,
+    ),
+    SingleInterpretationWord(
+      word: 'إلى',
+      location: Interpretation.HARF_JAR,
+    ),
+    TripleInterpretationWord(
+      word: "السماء",
+      location: Interpretation.ISM,
+      state: Interpretation.MAJROR,
+      movement: Interpretation.BILKASRA,
+    ),
+    TripleInterpretationWord(
+      word: "متأملاً",
+      location: Interpretation.HAL,
+      state: Interpretation.MANSOB,
+      movement: Interpretation.BLFAT7A,
+    ),
+  ]),
+  Sentence(words: [
+    MultiInterpretationWord(
+      word: "أنهى",
+      location: Interpretation.FI3L_MADI,
+      state: Interpretation.MABNI,
+      movement: Interpretation.FAT7_MO9ADAR,
+      extra: Interpretation.TA3ADOR,
+    ),
+    MultiInterpretationWord(
+      word: "الموظفان",
+      location: Interpretation.FA3IL,
+      state: Interpretation.MARFO3,
+      movement: Interpretation.BILALIF,
+      extra: Interpretation.MOTHANA,
+    ),
+    TripleInterpretationWord(
+      word: "العمل",
+      location: Interpretation.MAF3OL_BIH,
+      state: Interpretation.MANSOB,
+      movement: Interpretation.BLFAT7A,
+    ),
+    MultiInterpretationWord(
+      word: "نشيطين",
+      location: Interpretation.HAL,
+      state: Interpretation.MANSOB,
+      movement: Interpretation.BILYA,
+      extra: Interpretation.MOTHANA,
+    ),
+  ]),
+  Sentence(words: [
+    MultiInterpretationWord(
+      word: "رأى",
+      location: Interpretation.FI3L_MADI,
+      state: Interpretation.MABNI,
+      movement: Interpretation.FAT7_MO9ADAR,
+      extra: Interpretation.TA3ADOR,
+    ),
+    TripleInterpretationWord(
+      word: "المسعفُ",
+      location: Interpretation.FA3IL,
+      state: Interpretation.MARFO3,
+      movement: Interpretation.BDAMA,
+    ),
+    MultiInterpretationWord(
+      word: "الغريقين",
+      location: Interpretation.MAF3OL_BIH,
+      state: Interpretation.MANSOB,
+      movement: Interpretation.BILYA,
+      extra: Interpretation.MOTHANA,
+    ),
+    MultiInterpretationWord(
+      word: "مستنجدين",
+      location: Interpretation.HAL,
+      state: Interpretation.MANSOB,
+      movement: Interpretation.BILYA,
+      extra: Interpretation.MOTHANA,
+    ),
+  ]),
+  Sentence(words: [
+    TripleInterpretationWord(
+      word: "هاجم",
+      location: Interpretation.FI3L_MADI,
+      state: Interpretation.MABNI,
+      movement: Interpretation.ELA_FAT7,
+    ),
+    TripleInterpretationWord(
+      word: "الجنود",
+      location: Interpretation.FA3IL,
+      state: Interpretation.MARFO3,
+      movement: Interpretation.BDAMA,
+    ),
+    TripleInterpretationWord(
+      word: "الأعداء",
+      location: Interpretation.MAF3OL_BIH,
+      state: Interpretation.MANSOB,
+      movement: Interpretation.BLFAT7A,
+    ),
+    MultiInterpretationWord(
+      word: "ثائرين",
+      location: Interpretation.HAL,
+      state: Interpretation.MANSOB,
+      movement: Interpretation.BILYA,
+      extra: Interpretation.JAM3_MODAKAR,
+    ),
+  ]),
+  Sentence(words: [
+    TripleInterpretationWord(
+      word: "استمع",
+      location: Interpretation.FI3L_MADI,
+      state: Interpretation.MABNI,
+      movement: Interpretation.ELA_FAT7,
+    ),
+    MultiInterpretationWord(
+      word: 'المصلون',
+      location: Interpretation.FA3IL,
+      state: Interpretation.MARFO3,
+      movement: Interpretation.BILWAW,
+      extra: Interpretation.JAM3_MODAKAR,
+    ),
+    SingleInterpretationWord(
+      word: 'إلى',
+      location: Interpretation.HARF_JAR,
+    ),
+    TripleInterpretationWord(
+      word: "الخطيب",
+      location: Interpretation.ISM,
+      state: Interpretation.MAJROR,
+      movement: Interpretation.BILKASRA,
+    ),
+    MultiInterpretationWord(
+      word: "منتبهين",
+      location: Interpretation.HAL,
+      state: Interpretation.MANSOB,
+      movement: Interpretation.BILYA,
+      extra: Interpretation.JAM3_MODAKAR,
+    ),
+  ]),
+  Sentence(sentence: "رأيتُ الطائراتِ محلقاتٍ", words: [
+    MultiInterpretationWord(
+        word: "رأي",
+        location: Interpretation.FI3L_MADI,
+        state: Interpretation.MABNI,
+        movement: Interpretation.ELASOKON,
+        extra: Interpretation.DAMIR_RAF3_MOTASIL),
+    SingleExtraInterpretationWord(
+      word: "تُ",
+      extra: Interpretation.MA7AL_RAF3_FA3IL,
+      location: Interpretation.DAMIR_MOTASIL,
+    ),
+    MultiInterpretationWord(
+      word: "الطائرات ",
+      location: Interpretation.MAF3OL_BIH,
+      state: Interpretation.MANSOB,
+      movement: Interpretation.BILKASRA,
+      extra: Interpretation.JAM3_MO2ANAT,
+    ),
+    MultiInterpretationWord(
+      word: "محلقاتٍ",
+      location: Interpretation.HAL,
+      state: Interpretation.MANSOB,
+      movement: Interpretation.BILKASRA,
+      extra: Interpretation.JAM3_MO2ANAT,
+    ),
+  ]),
+  Sentence(sentence: 'صفقت الحاضراتُ للمسرحية مشجعاتٍ ', words: [
+    MultiInterpretationWord(
+      word: 'صفقت',
+      location: Interpretation.FI3L_MADI,
+      state: Interpretation.MABNI,
+      movement: Interpretation.ELA_FAT7,
+      extra: Interpretation.TA2NIT,
+    ),
+    TripleInterpretationWord(
+      word: "الحاضرات",
+      location: Interpretation.FA3IL,
+      state: Interpretation.MARFO3,
+      movement: Interpretation.BDAMA,
+    ),
+    SingleInterpretationWord(
+      word: 'لـ',
+      location: Interpretation.HARF_JAR,
+    ),
+    TripleInterpretationWord(
+      word: "المسرحية",
+      location: Interpretation.ISM,
+      state: Interpretation.MAJROR,
+      movement: Interpretation.BILKASRA,
+    ),
+    MultiInterpretationWord(
+      word: "مشجعات",
+      location: Interpretation.HAL,
+      state: Interpretation.MANSOB,
+      movement: Interpretation.BILKASRA,
+      extra: Interpretation.JAM3_MO2ANAT,
+    ),
+  ]),
+  Sentence(words: [
+    TripleInterpretationWord(
+      word: "ارتفع",
+      location: Interpretation.FI3L_MADI,
+      state: Interpretation.MABNI,
+      movement: Interpretation.ELA_FAT7,
+    ),
+    TripleInterpretationWord(
+      word: "العلم",
+      location: Interpretation.FA3IL,
+      state: Interpretation.MARFO3,
+      movement: Interpretation.BDAMA,
+    ),
+    TripleInterpretationWord(
+      word: "خفاقًا",
+      location: Interpretation.HAL,
+      state: Interpretation.MANSOB,
+      movement: Interpretation.BLFAT7A,
+    ),
+  ]),
+  Sentence(sentence: 'أقبلت المتخرجات مبتهجات', words: [
+    MultiInterpretationWord(
+      word: 'أقبلت',
+      location: Interpretation.FI3L_MADI,
+      state: Interpretation.MABNI,
+      movement: Interpretation.ELA_FAT7,
+      extra: Interpretation.TA2NIT,
+    ),
+    TripleInterpretationWord(
+      word: "المتخرجات",
+      location: Interpretation.FA3IL,
+      state: Interpretation.MARFO3,
+      movement: Interpretation.BDAMA,
+    ),
+    MultiInterpretationWord(
+      word: "مبتهجات",
+      location: Interpretation.HAL,
+      state: Interpretation.MANSOB,
+      movement: Interpretation.BILKASRA,
+      extra: Interpretation.JAM3_MO2ANAT,
+    ),
+  ]),
+  Sentence(words: [
+    TripleInterpretationWord(
+      word: "أحرم",
+      location: Interpretation.FI3L_MADI,
+      state: Interpretation.MABNI,
+      movement: Interpretation.ELA_FAT7,
+    ),
+    TripleInterpretationWord(
+      word: "الحجاج",
+      location: Interpretation.FA3IL,
+      state: Interpretation.MARFO3,
+      movement: Interpretation.BDAMA,
+    ),
+    MultiInterpretationWord(
+      word: "ملبين",
+      location: Interpretation.HAL,
+      state: Interpretation.MANSOB,
+      movement: Interpretation.BILYA,
+      extra: Interpretation.JAM3_MODAKAR,
+    ),
+  ]),
+  Sentence(sentence: "سلمتُ على المعلمين مبتسمين", words: [
+    MultiInterpretationWord(
+        word: "سلم",
+        location: Interpretation.FI3L_MADI,
+        state: Interpretation.MABNI,
+        movement: Interpretation.ELASOKON,
+        extra: Interpretation.DAMIR_RAF3_MOTASIL),
+    SingleExtraInterpretationWord(
+      word: "تُ",
+      extra: Interpretation.MA7AL_RAF3_FA3IL,
+      location: Interpretation.DAMIR_MOTASIL,
+    ),
+    SingleInterpretationWord(
+      word: 'على',
+      location: Interpretation.HARF_JAR,
+    ),
+    MultiInterpretationWord(
+      word: "المعلمين",
+      location: Interpretation.ISM,
+      state: Interpretation.MAJROR,
+      movement: Interpretation.BILYA,
+      extra: Interpretation.JAM3_MODAKAR,
+    ),
+    MultiInterpretationWord(
+      word: "مبتسمين",
+      location: Interpretation.HAL,
+      state: Interpretation.MANSOB,
+      movement: Interpretation.BILYA,
+      extra: Interpretation.JAM3_MODAKAR,
+    ),
+  ]),
+  Sentence(sentence: "رأيت الأسماك سابحةً في البحيرة", words: [
+    MultiInterpretationWord(
+        word: "رأي",
+        location: Interpretation.FI3L_MADI,
+        state: Interpretation.MABNI,
+        movement: Interpretation.ELASOKON,
+        extra: Interpretation.DAMIR_RAF3_MOTASIL),
+    SingleExtraInterpretationWord(
+      word: "تُ",
+      extra: Interpretation.MA7AL_RAF3_FA3IL,
+      location: Interpretation.DAMIR_MOTASIL,
+    ),
+    TripleInterpretationWord(
+      word: "الأسماكَ",
+      location: Interpretation.MAF3OL_BIH,
+      state: Interpretation.MANSOB,
+      movement: Interpretation.BLFAT7A,
+    ),
+    TripleInterpretationWord(
+      word: "سابحة",
+      location: Interpretation.HAL,
+      state: Interpretation.MANSOB,
+      movement: Interpretation.BLFAT7A,
+    ),
+    SingleInterpretationWord(
+      word: 'في',
+      location: Interpretation.HARF_JAR,
+    ),
+    TripleInterpretationWord(
+      word: "البحيرة",
+      location: Interpretation.ISM,
+      state: Interpretation.MAJROR,
+      movement: Interpretation.BILKASRA,
+    ),
+  ]),
+  Sentence(words: [
+    MultiInterpretationWord(
+      word: "يجري",
+      location: Interpretation.FI3L_MODARE3,
+      state: Interpretation.MARFO3,
+      movement: Interpretation.DAMA_MO9ADARA,
+      extra: Interpretation.TI9AL,
+    ),
+    MultiInterpretationWord(
+      word: 'المتسابقون',
+      location: Interpretation.FA3IL,
+      state: Interpretation.MARFO3,
+      movement: Interpretation.BILWAW,
+      extra: Interpretation.JAM3_MODAKAR,
+    ),
+    MultiInterpretationWord(
+      word: "لاهثين",
+      location: Interpretation.HAL,
+      state: Interpretation.MANSOB,
+      movement: Interpretation.BILYA,
+      extra: Interpretation.JAM3_MODAKAR,
+    ),
+  ]),
+  Sentence(sentence: 'دعا المؤمن الله موقنًا بالإجابة', words: [
+    MultiInterpretationWord(
+      word: "دعا",
+      location: Interpretation.FI3L_MADI,
+      state: Interpretation.MABNI,
+      movement: Interpretation.FAT7_MO9ADAR,
+      extra: Interpretation.TA3ADOR,
+    ),
+    TripleInterpretationWord(
+      word: "المؤمن",
+      location: Interpretation.FA3IL,
+      state: Interpretation.MARFO3,
+      movement: Interpretation.BDAMA,
+    ),
+    TripleInterpretationWord(
+      word: "الله",
+      location: Interpretation.MAF3OL_BIH,
+      state: Interpretation.MANSOB,
+      movement: Interpretation.BLFAT7A,
+    ),
+    TripleInterpretationWord(
+      word: "موقنا",
+      location: Interpretation.HAL,
+      state: Interpretation.MANSOB,
+      movement: Interpretation.BLFAT7A,
+    ),
+    SingleInterpretationWord(
+      word: 'بـ',
+      location: Interpretation.HARF_JAR,
+    ),
+    TripleInterpretationWord(
+      word: "الإجابة",
+      location: Interpretation.ISM,
+      state: Interpretation.MAJROR,
+      movement: Interpretation.BILKASRA,
+    ),
+  ])
+];

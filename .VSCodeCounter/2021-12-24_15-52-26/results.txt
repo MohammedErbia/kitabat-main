@@ -1,0 +1,58 @@
+Date : 2021-12-24 15:52:26
+Directory : /Users/djamelrassem/Dev/Projects/flutter/kitabat/lib
+Total : 23 files,  696 codes, 3 comments, 75 blanks, all 774 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| Dart     |         23 |        696 |          3 |         75 |        774 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                               | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                  |         23 |        696 |          3 |         75 |        774 |
+| db                                                                                                 |          1 |         17 |          0 |          2 |         19 |
+| models                                                                                             |          4 |         43 |          0 |         10 |         53 |
+| routes                                                                                             |          2 |         37 |          0 |          5 |         42 |
+| utils                                                                                              |          5 |         39 |          0 |          9 |         48 |
+| view                                                                                               |         10 |        526 |          3 |         44 |        573 |
+| view/components                                                                                    |          3 |         78 |          0 |          7 |         85 |
+| view/screens                                                                                       |          7 |        448 |          3 |         37 |        488 |
+| view/screens/home                                                                                  |          1 |        123 |          0 |          9 |        132 |
+| view/screens/puzzle                                                                                |          5 |        323 |          3 |         27 |        353 |
+| view/screens/puzzle/clippers                                                                       |          1 |         45 |          0 |          5 |         50 |
+| view/screens/puzzle/widgets                                                                        |          3 |         79 |          0 |         10 |         89 |
++----------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                                           | language | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| /Users/djamelrassem/Dev/Projects/flutter/kitabat/lib/db/database.dart                              | Dart     |         17 |          0 |          2 |         19 |
+| /Users/djamelrassem/Dev/Projects/flutter/kitabat/lib/main.dart                                     | Dart     |         34 |          0 |          5 |         39 |
+| /Users/djamelrassem/Dev/Projects/flutter/kitabat/lib/models/_models.dart                           | Dart     |          3 |          0 |          1 |          4 |
+| /Users/djamelrassem/Dev/Projects/flutter/kitabat/lib/models/interpretation.dart                    | Dart     |          6 |          0 |          1 |          7 |
+| /Users/djamelrassem/Dev/Projects/flutter/kitabat/lib/models/sentence.dart                          | Dart     |          5 |          0 |          3 |          8 |
+| /Users/djamelrassem/Dev/Projects/flutter/kitabat/lib/models/word.dart                              | Dart     |         29 |          0 |          5 |         34 |
+| /Users/djamelrassem/Dev/Projects/flutter/kitabat/lib/routes/app_routes.dart                        | Dart     |          5 |          0 |          2 |          7 |
+| /Users/djamelrassem/Dev/Projects/flutter/kitabat/lib/routes/routes_generator.dart                  | Dart     |         32 |          0 |          3 |         35 |
+| /Users/djamelrassem/Dev/Projects/flutter/kitabat/lib/utils/_utils.dart                             | Dart     |          3 |          0 |          1 |          4 |
+| /Users/djamelrassem/Dev/Projects/flutter/kitabat/lib/utils/app_icons.dart                          | Dart     |          9 |          0 |          2 |         11 |
+| /Users/djamelrassem/Dev/Projects/flutter/kitabat/lib/utils/app_images.dart                         | Dart     |          6 |          0 |          2 |          8 |
+| /Users/djamelrassem/Dev/Projects/flutter/kitabat/lib/utils/app_size.dart                           | Dart     |          6 |          0 |          2 |          8 |
+| /Users/djamelrassem/Dev/Projects/flutter/kitabat/lib/utils/app_theme.dart                          | Dart     |         15 |          0 |          2 |         17 |
+| /Users/djamelrassem/Dev/Projects/flutter/kitabat/lib/view/components/_components.dart              | Dart     |          1 |          0 |          1 |          2 |
+| /Users/djamelrassem/Dev/Projects/flutter/kitabat/lib/view/components/rounded_square.dart           | Dart     |         48 |          0 |          3 |         51 |
+| /Users/djamelrassem/Dev/Projects/flutter/kitabat/lib/view/components/tall_button.dart              | Dart     |         29 |          0 |          3 |         32 |
+| /Users/djamelrassem/Dev/Projects/flutter/kitabat/lib/view/screens/_screens.dart                    | Dart     |          2 |          0 |          1 |          3 |
+| /Users/djamelrassem/Dev/Projects/flutter/kitabat/lib/view/screens/home/home_screen.dart            | Dart     |        123 |          0 |          9 |        132 |
+| /Users/djamelrassem/Dev/Projects/flutter/kitabat/lib/view/screens/puzzle/clippers/clipper.dart     | Dart     |         45 |          0 |          5 |         50 |
+| /Users/djamelrassem/Dev/Projects/flutter/kitabat/lib/view/screens/puzzle/puzzle_screen.dart        | Dart     |        199 |          3 |         12 |        214 |
+| /Users/djamelrassem/Dev/Projects/flutter/kitabat/lib/view/screens/puzzle/widgets/place_holder.dart | Dart     |         34 |          0 |          3 |         37 |
+| /Users/djamelrassem/Dev/Projects/flutter/kitabat/lib/view/screens/puzzle/widgets/puzzle_piece.dart | Dart     |         28 |          0 |          4 |         32 |
+| /Users/djamelrassem/Dev/Projects/flutter/kitabat/lib/view/screens/puzzle/widgets/puzzle_shape.dart | Dart     |         17 |          0 |          3 |         20 |
+| Total                                                                                              |          |        696 |          3 |         75 |        774 |
++----------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
